@@ -1,0 +1,10 @@
+.navbar{    
+    background-color: rgb(12, 12, 40);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+#logo{  
+    color: blanchedalmond;
+    font-weight: bold;
+    padding: 1REM;
+}
