@@ -1,0 +1,98 @@
+body{
+	background-color: rgba(2, 122, 0, 0.861);    
+}
+
+.navbar{    
+    background-color: rgb(12, 12, 40);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+#logo{  
+    color: blanchedalmond;
+    text-shadow: 1.5px 1.5px silver;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: left;
+    width: 100%;
+}
+
+.video-container{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+}
+
+.video-frame{
+    width: 100%;
+    height: auto;
+
+}
+
+#box {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+}
+
+
+
+#home-title-box{
+	color: rgb(63, 63, 219);
+    position: absolute;
+    top: 12%;
+    z-index: 999;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.3); /* optional dark overlay for contrast */
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.link, #home-title, #home-subtitle{
+	text-shadow: black 1px 1px;
+}
+
+.link, .link:visited{
+	color: rgb(63, 63, 219);
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.2s;
+}
+
+
+.link:hover {
+  color: #0077ff;
+}
+
+
+#home-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#home-subtitle{
+    font-size: 1rem;
+}
+/* 	
+theres a virus going around and movies that already exist are getting corrupted and the actors in them are being replaced by pedro pascal */
+
+/* Small devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 759px) {
+    #home-title-box{
+        top: 15rem ;
+    }
+}
+
+/* Medium devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #logo{
+        text-align: left;
+    }
+}
+
+/* Large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1536px) {...}
